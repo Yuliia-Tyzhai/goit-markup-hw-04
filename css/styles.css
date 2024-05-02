@@ -157,7 +157,7 @@ p {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/background-images/people-office.jpg);
+    url(../images/background-images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -237,6 +237,7 @@ p {
   border-radius: 4px;
   width: 264px;
   height: 112px;
+  background: #f4f4fd;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   padding-top: 24px;
   padding-right: 100px;
@@ -249,16 +250,6 @@ p {
   gap: 24px;
   align-items: center;
   justify-content: center;
-}
-
-.team-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #4d5ae5;
 }
 
 .features-list-title {
@@ -323,7 +314,35 @@ p {
 
 .name-card {
   padding-top: 32px;
+  padding-bottom: 8px;
+}
+
+.icons-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 16px;
   padding-bottom: 32px;
+  padding-left: 16px;
+}
+
+.team-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.team-card-full {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
 }
 
 /* ==============OUR PORTFOLIO STYLES============== */
