@@ -339,8 +339,8 @@ p {
   height: 40px;
 }
 
-.icons-list-item:hover,
-.icons-list-item:focus {
+.icons-icon:hover,
+.icons-icon:focus {
   background-color: #404bbf;
 }
 
