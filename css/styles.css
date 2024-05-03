@@ -339,8 +339,8 @@ p {
   height: 40px;
 }
 
-.icons-icon:hover,
-.icons-icon:focus {
+.link-icon:hover,
+.link-icon:focus {
   background-color: #404bbf;
 }
 
